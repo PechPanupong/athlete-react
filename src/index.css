@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, roboto;
   line-height: 1.5;
   font-weight: 400;
 
@@ -12,6 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  --primary: #5e3db3;
+  --secondary: #f5f4f9;
+  --third: #090c35;
+  --white: #f2f2f2;
+  --black: #000000;
 }
 
 a {
@@ -29,11 +34,33 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  color: #e7e7e7;
+  font-family: Roboto;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 105px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+h2 {
+  color: #e7e7e7;
+  font-family: Roboto;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 105px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
 }
 
 button {
@@ -67,3 +94,52 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.primary {
+  color: var(--primary);
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+.secondary {
+  color: var(--secondary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.third {
+  color: var(--third);
+}
+.bg-third {
+  background-color: var(--third);
+}
+.white {
+  color: var(--white);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.black {
+  color: var(--black);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+
+@import "@splidejs/react-splide/css";
+@import "@splidejs/react-splide/css/core";
