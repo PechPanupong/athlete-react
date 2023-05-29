@@ -23,19 +23,6 @@ section {
   padding-top: 125px;
 }
 
-.number-container {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: center;
-}
-
-.number-text-underline {
-  height: 5px;
-  width: 22px;
-  border-radius: 2.5px;
-}
-
 .title-box {
   width: 50%;
   padding-top: 50px;
@@ -51,6 +38,19 @@ section {
   align-items: center;
   gap: 10px;
   padding-bottom: 30px;
+}
+
+.number-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.number-text-underline {
+  height: 5px;
+  width: 22px;
+  border-radius: 2.5px;
 }
 
 .content-detail-box {
