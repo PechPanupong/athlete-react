@@ -1,4 +1,4 @@
-.header {
+.title {
   color: #e7e7e7;
   font-size: 90px;
   font-weight: 400;
@@ -14,7 +14,7 @@
   letter-spacing: 0.8px;
   text-align: left;
 }
-.content-header-text {
+.content-title-text {
   color: #c2c2c2;
   font-size: 36px;
   font-weight: 400;
@@ -31,7 +31,7 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .header {
+  .title {
     font-size: 90px;
     line-height: 105px;
   }
@@ -40,7 +40,7 @@
     line-height: 28px;
   }
 
-  .content-header-text {
+  .content-title-text {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 1.5px;
@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .header {
+  .title {
     font-size: 50px;
     line-height: 59px;
   }
@@ -63,7 +63,7 @@
     line-height: 16px;
     letter-spacing: 1.5px;
   }
-  .content-header-text {
+  .content-title-text {
     font-size: 28px;
     line-height: 33px;
     letter-spacing: 1.5px;
